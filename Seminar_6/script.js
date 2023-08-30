@@ -20,8 +20,9 @@ const cardTitle = document.querySelector('.card-title');
 console.log(cardTitle.parentElement);
 // 7. Создайте тегp`, запишите внутри него текст "Привет" и добавьте созданный тег в начало элемента, который имеет класс "card".
 const tegP = document.createElement('p');
+tegP.textContent = 'Привет';
 const card = document.querySelector('.card');
-card.appendChild(tegP);
+card.insertBefore(tegP, card.firstElementChild);
 // 8. Удалите тег h6 на странице.
 const cardSubtitle = document.querySelector('h6');
 cardSubtitle.remove();
