@@ -1,0 +1,22 @@
+.card {
+    width: 360px;
+    gap: 30px;
+  }
+  
+  .text__Card {
+    font-size: 13px;
+    background: #f8f8f8;
+    padding-top: 25px;
+    & h3 {
+      margin: 16px 0;
+      color: #5d5d5d;
+      font-size: 14px;
+      width: 315px;
+      font-weight: 300;
+    }
+    & p {
+      color: #f16d7f;
+      font-size: 16px;
+      padding-bottom: 20px;
+    }
+  }
